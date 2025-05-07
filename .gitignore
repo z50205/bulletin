@@ -1,0 +1,4 @@
+.env_bulletin
+.vscode
+__pycache__/
+bulletin_env/

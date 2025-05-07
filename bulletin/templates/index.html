@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/scripts/index.js" defer></script>
+    <title>Bulletin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Noto Sans TC';">
+    <h1>發表一篇推文</h1>
+    <form id="uploadForm">
+        <div>
+            <label>文件內容</label>
+            <input type="text" name="message" id="uploadMessage"/>
+        </div>
+        <div>
+            <label>圖片檔案</label>
+            <input type="file" name="image" id="uploadFormFile" accept="image/png, image/jpeg"/>
+        </div>
+        <button class="info-button">
+            送出
+        </button>
+    </form>
+    <hr>
+    <div id="messageRoot">
+    </div>
+</body>
+</html>
